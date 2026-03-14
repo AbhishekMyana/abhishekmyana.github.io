@@ -32,7 +32,6 @@ const navLinks = [
   { label: 'Projects', href: '#projects', type: 'hash' },
   { label: 'Skills', href: '#skills', type: 'hash' },
   { label: 'Blog', href: '/blog', type: 'route' },
-  { label: 'Contact', href: '#contact', type: 'hash', cta: true },
 ]
 
 export default function Navbar({ alwaysScrolled = false }) {

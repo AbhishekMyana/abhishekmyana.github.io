@@ -4,13 +4,13 @@ export default function About() {
       icon: '🎓',
       title: 'VJTI, Mumbai',
       sub: 'B.Tech · ECE · 2021',
-      badge: '8.04 / 10',
+      badge: 'Electronics & Comm.',
     },
     {
-      icon: '🏆',
+      icon: '📚',
       title: 'GATE CS 2021',
       sub: 'Computer Science',
-      badge: 'AIR 800',
+      badge: 'Qualified',
     },
     {
       icon: '📍',
@@ -19,10 +19,10 @@ export default function About() {
       badge: 'India',
     },
     {
-      icon: '🚀',
-      title: 'JEE Advanced 2017',
-      sub: 'Engineering Entrance',
-      badge: 'AIR 6930',
+      icon: '💼',
+      title: 'Current Role',
+      sub: 'Samsung R&D',
+      badge: 'Senior SWE',
     },
   ]
 
@@ -41,9 +41,8 @@ export default function About() {
               layer features — from Network Sharing and QoS Scheduling to Power Allocation.
             </p>
             <p>
-              With a B.Tech in Electronics &amp; Communication from VJTI Mumbai (8.04 CGPA), I ranked{' '}
-              <strong>AIR 800 in GATE CS 2021</strong> and <strong>AIR 6930 in JEE Advanced 2017</strong>. My
-              stack spans embedded systems to full-stack web — C/C++, Python, Django, ReactJS, AWS and beyond.
+              With a B.Tech in Electronics &amp; Communication from VJTI Mumbai, my stack spans embedded
+              systems to full-stack web — C/C++, Python, Django, ReactJS, AWS and beyond.
             </p>
             <p>
               I&apos;ve travelled to Samsung HQ in South Korea, cleared the Professional level Software

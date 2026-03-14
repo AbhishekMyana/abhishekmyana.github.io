@@ -15,7 +15,7 @@ export default function Hero() {
           <span className="text-gradient">Myana</span>
         </h1>
         <p className="hero-sub reveal">
-          Building robust telecom systems at Samsung · LTE MAC Layer · Full-Stack Dev · AIR&nbsp;800 GATE CS 2021
+          Building robust telecom systems at Samsung · LTE MAC Layer · Full-Stack Dev
         </p>
         <div className="hero-actions reveal">
           <a href="#projects" className="btn btn-primary">
