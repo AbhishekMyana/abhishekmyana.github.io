@@ -20,29 +20,17 @@ Open `http://localhost:5173`
 
 ## Deploy to GitHub Pages
 
-### User Page (`username.github.io`)
+Deployment is fully automated via **GitHub Actions**.
 
-Keep `vite.config.js` as-is (`base: './'`) and run:
-
-```bash
-npm run deploy
-```
-
-### Project Page (`username.github.io/portfolio`)
-
-In `vite.config.js`, set:
-
-```js
-base: '/portfolio/',
-```
-
-Then run:
+Push to `main` and the site rebuilds and deploys automatically:
 
 ```bash
-npm run deploy
+git add .
+git commit -m "your changes"
+git push
 ```
 
-The `predeploy` script builds automatically before pushing to the `gh-pages` branch.
+The workflow file is at [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
 
 ## Project Structure
 
