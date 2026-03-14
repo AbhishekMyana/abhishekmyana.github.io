@@ -1,4 +1,4 @@
-import { skills, courses } from '../data/resume.js'
+import { skills } from '../data/resume.js'
 
 export default function Skills() {
   const skillGroups = Object.entries(skills)
@@ -26,17 +26,6 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="courses-section reveal">
-          <h4 className="skill-group-title">Certifications &amp; Courses</h4>
-          <div className="courses-grid">
-            {courses.map((course) => (
-              <div key={course.title} className="course-card glass">
-                <span className="course-icon">{course.icon}</span>
-                <span>{course.title}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
